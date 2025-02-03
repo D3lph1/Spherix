@@ -1,0 +1,14 @@
+[package]
+name = "spherix-config"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+
+[dependencies]
+spherix-macro = {path = "../macro"}
+
+config = {workspace = true}
+serde = {workspace = true}
+serde_yaml = {workspace = true}
+bevy_ecs = {workspace = true}

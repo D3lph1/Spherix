@@ -1,0 +1,34 @@
+[package]
+name = "spherix-net"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+
+[dependencies]
+spherix-proto = {path = "../proto"}
+spherix-registry = {path = "../registry"}
+spherix-config = {path = "../config"}
+spherix-util = {path = "../util"}
+
+tokio = {workspace = true}
+tokio-util = {workspace = true}
+futures-lite = {workspace = true}
+flume = {workspace = true}
+
+reqwest = {workspace = true}
+serde_json = {workspace = true}
+
+# Encryption
+rsa = {workspace = true}
+rsa-der = {workspace = true}
+sha1 = {workspace = true}
+
+uuid = {workspace = true}
+rand = {workspace = true}
+hematite-nbt = {workspace = true}
+serde = {workspace = true}
+
+tracing = {workspace = true}
+owo-colors = {workspace = true}
+anyhow = {workspace = true}

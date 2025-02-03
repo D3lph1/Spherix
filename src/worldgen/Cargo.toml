@@ -1,0 +1,40 @@
+[package]
+name = "spherix-worldgen"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+
+[dependencies]
+
+spherix-world = { path = "../world" }
+spherix-util = { path = "../util" }
+spherix-math = { path = "../math" }
+
+rstar = { workspace = true }
+
+md5 = { workspace = true }
+crypto-hashes = { workspace = true }
+
+serde = { workspace = true }
+serde_json = { workspace = true, features = ["raw_value"] }
+
+anyhow = { workspace = true }
+debug_tree = { workspace = true }
+
+num-traits = { workspace = true }
+lazy_static = { workspace = true }
+gxhash = { workspace = true }
+lru = { workspace = true }
+
+[dev-dependencies]
+criterion = { workspace = true }
+pprof = { workspace = true }
+
+[[bench]]
+name = "generator_fill_noise"
+harness = false
+
+[[bench]]
+name = "perlin_noise"
+harness = false

@@ -1,0 +1,12 @@
+[package]
+name = "spherix-math"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+
+[dependencies]
+
+spherix-util = {path = "../util"}
+
+nalgebra = { workspace = true }

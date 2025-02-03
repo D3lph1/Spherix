@@ -1,0 +1,10 @@
+[package]
+name = "spherix-registry"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+spherix-proto = {path = "../proto"}
+
+hematite-nbt = {workspace = true}
+serde = {workspace = true}

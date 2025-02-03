@@ -1,0 +1,32 @@
+[package]
+name = "spherix-world"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+
+[dependencies]
+
+spherix-proto = { path = "../proto" }
+spherix-util = { path = "../util" }
+spherix-macro = { path = "../macro" }
+spherix-math = { path = "../math" }
+
+bevy_ecs = { workspace = true }
+nalgebra = { workspace = true }
+
+rayon = { workspace = true }
+bimap = { workspace = true }
+lru = { workspace = true }
+
+serde = { workspace = true }
+serde_json = { workspace = true }
+hematite-nbt = { workspace = true }
+
+flate2 = { workspace = true }
+anyhow = { workspace = true }
+log = { workspace = true }
+
+gxhash = { workspace = true }
+lazy_static = { workspace = true }
+thread_local = { workspace = true }

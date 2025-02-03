@@ -1,0 +1,25 @@
+[package]
+name = "spherix-proto"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+
+[dependencies]
+spherix-util = {path = "../util"}
+spherix-macro = {path = "../macro"}
+
+# Compression
+flate2 = {workspace = true}
+
+aes = {workspace = true}
+cfb8 = {workspace = true}
+
+# Misc
+uuid = {workspace = true}
+hematite-nbt = {workspace = true}
+
+owo-colors = {workspace = true}
+anyhow = {workspace = true}
+thiserror = {workspace = true}
+paste = {workspace = true}

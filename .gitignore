@@ -1,0 +1,8 @@
+/target
+/generated
+
+config.yaml
+/plugins
+/log
+
+.console

@@ -1,0 +1,52 @@
+[package]
+name = "spherix-server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+spherix-proto = {path = "../proto"}
+spherix-net = {path = "../net"}
+spherix-world = {path = "../world"}
+spherix-worldgen = {path = "../worldgen"}
+spherix-config = {path = "../config"}
+spherix-log = {path = "../log"}
+spherix-util = {path = "../util"}
+spherix-math = {path = "../math"}
+
+tokio = {workspace = true}
+tokio-util = {workspace = true}
+tracing = {workspace = true}
+
+flume = {workspace = true}
+rayon = {workspace = true}
+
+anyhow = {workspace = true}
+
+owo-colors = {workspace = true}
+
+hematite-nbt = {workspace = true}
+serde = {workspace = true}
+serde_json = {workspace = true}
+
+bimap = {workspace = true}
+nalgebra = {workspace = true}
+bevy_app = {workspace = true}
+bevy_tasks = {workspace = true}
+bevy_ecs = {workspace = true}
+
+rustyline = {workspace = true}
+clap = {workspace = true}
+shellwords = {workspace = true}
+
+uuid = {workspace = true}
+
+# Compression
+flate2 = {workspace = true}
+rand = {workspace = true}
+
+#syn = {workspace = true}
+#quote = {workspace = true}
+#proc-macro2 = {workspace = true}
+#venial = {workspace = true}
+paste = {workspace = true}
+gxhash = {workspace = true}
