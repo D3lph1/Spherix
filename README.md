@@ -4,7 +4,7 @@
 
 # Spherix
 
-High performance Minecraft server written in Rust.
+High-performance Minecraft server written in Rust.
 
 > [!NOTE]  
 > Currently not stable and under heavy development.
