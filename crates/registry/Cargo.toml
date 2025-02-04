@@ -2,6 +2,7 @@
 name = "spherix-registry"
 version = "0.1.0"
 edition = "2021"
+authors = ["Bogdan Chertkov <d3lph1.contact@gmail.com>"]
 
 [dependencies]
 spherix-proto = {path = "../proto"}

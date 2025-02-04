@@ -26,7 +26,7 @@ Our crate `spherix-worldgen` produces worlds (almost) one-to-one the same as the
 
 ## Requirements
 
-- Latest stable Rust compiler
+- 1.82 stable Rust compiler
 - Vanilla server for data pack generation (one time during setup)
 
 ## How to run?
@@ -59,7 +59,7 @@ as block states or world generator settings) for its operation.
 3. Build the server in release mode and run it using the following command:
 
 ```shell
-cargo run --bin spherix-server --profile release --manifest-path ./src/server/Cargo.toml
+cargo run --bin spherix-server --profile release --manifest-path ./crates/server/Cargo.toml
 ```
 
 # License

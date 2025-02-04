@@ -3171,10 +3171,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "spherix"
-version = "0.1.0"
-
-[[package]]
 name = "spherix-config"
 version = "0.1.0"
 dependencies = [

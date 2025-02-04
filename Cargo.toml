@@ -1,24 +1,17 @@
-[package]
-name = "spherix"
-edition = "2021"
-version = "0.1.0"
-description = "Blazingly fast Minecraft server written in Rust"
-authors = ["Bogdan Chertkov <d3lph1.contact@gmail.com>"]
-
 [workspace]
 
 members = [
-    "src/proto",
-    "src/net",
-    "src/server",
-    "src/config",
-    "src/log",
-    "src/util",
-    "src/macro",
-    "src/math",
-    "src/registry",
-    "src/world",
-    "src/worldgen",
+    "crates/proto",
+    "crates/net",
+    "crates/server",
+    "crates/config",
+    "crates/log",
+    "crates/util",
+    "crates/macro",
+    "crates/math",
+    "crates/registry",
+    "crates/world",
+    "crates/worldgen",
 ]
 
 [workspace.dependencies]

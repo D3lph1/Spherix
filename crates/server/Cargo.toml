@@ -2,6 +2,8 @@
 name = "spherix-server"
 version = "0.1.0"
 edition = "2021"
+description = "Blazingly fast Minecraft server written in Rust"
+authors = ["Bogdan Chertkov <d3lph1.contact@gmail.com>"]
 
 [dependencies]
 spherix-proto = {path = "../proto"}
