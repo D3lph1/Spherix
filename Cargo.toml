@@ -92,7 +92,7 @@ lru = "0.12.5"
 
 # dev
 criterion = "0.5.1"
-pprof = { version = "0.3.0", features = ["flamegraph", "protobuf"] }
+#pprof = { version = "0.3.0", features = ["flamegraph", "protobuf"] }
 
 # Optimize binary size and performance for release builds
 [profile.release]

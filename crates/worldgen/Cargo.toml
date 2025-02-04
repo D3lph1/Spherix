@@ -30,7 +30,7 @@ lru = { workspace = true }
 
 [dev-dependencies]
 criterion = { workspace = true }
-pprof = { workspace = true }
+#pprof = { workspace = true }
 
 [[bench]]
 name = "generator_fill_noise"
