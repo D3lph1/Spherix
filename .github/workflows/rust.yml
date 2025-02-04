@@ -10,6 +10,8 @@ on:
 
 env:
   RUST_VERSION_STABLE: 1.82.0
+  RUSTFLAGS: '-C target-cpu=native'
+  CARGO_TERM_COLOR: always
 
 jobs:
 
@@ -25,7 +27,7 @@ jobs:
           profile: minimal
           override: true
       - name: Build
-        run: RUSTFLAGS="-C target-cpu=native" cargo build --all-targets
+        run: cargo build --all-targets
       - name: Test
         run: cargo test
 
@@ -41,7 +43,7 @@ jobs:
           profile: minimal
           override: true
       - name: Build
-        run: RUSTFLAGS="-C target-cpu=native" cargo build --all-targets
+        run: cargo build --all-targets
       - name: Test
         run: cargo test
 
@@ -57,6 +59,6 @@ jobs:
           profile: minimal
           override: true
       - name: Build
-        run: RUSTFLAGS="-C target-cpu=native" cargo build --all-targets
+        run: cargo build --all-targets
       - name: Test
         run: cargo test
